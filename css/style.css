@@ -1,20 +1,20 @@
 /*   *******    Modal  *******    */
 
-.c-modal{
-    background-color: #0525dd8b;
-    color: white;
-    width: 600px;
-    margin: auto;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-    margin-top: 10px;
-    display: none;
+.c-modal {
+  background-color: #0525dd8b;
+  color: white;
+  width: 600px;
+  margin: auto;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  margin-top: 10px;
+  display: none;
 }
-.btn-modal{
-     margin: 50px 650px;
-     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+.btn-modal {
+  margin: 50px 650px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
-.x-icon i{
-      font-size: 26px;
+.x-icon i {
+  font-size: 26px;
   color: red;
   background-color: white;
   margin-left: 473px;
@@ -22,9 +22,7 @@
   cursor: pointer;
 }
 
-
 /*  ******   PreLoader *******   */
-
 
 /* #preloader{
     position: fixed;
@@ -33,100 +31,97 @@
     background: #fff url('../img/preloader.gif') no-repeat center;
     z-index: 9999;
 } */
-#preloader{
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    z-index: 9999;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#preloader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.circle{
-    height: 160px;
-    width: 160px;
-    border-top: 7px solid rgba(102, 51, 153, 0.778);
-    border-radius: 100%;
-    animation: loading 2s linear infinite;
+.circle {
+  height: 160px;
+  width: 160px;
+  border-top: 7px solid rgba(102, 51, 153, 0.778);
+  border-radius: 100%;
+  animation: loading 2s linear infinite;
 }
 
 @keyframes loading {
-    from{
-        transform: rotate(0deg);
-        transition: .5s;
-    }
-    to{
-        transform: rotate(360deg);
-        transition: .5s;
-    }
+  from {
+    transform: rotate(0deg);
+    transition: 0.5s;
+  }
+  to {
+    transform: rotate(360deg);
+    transition: 0.5s;
+  }
 }
-
 
 /* **********  Calculator  ********** */
-.card{
-    width: 400px;
-    margin: auto;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
-    margin-top: 40px;
-    text-align: center;
+.card {
+  width: 400px;
+  margin: auto;
+  box-shadow: rgba(174, 87, 87, 0.4) 0px 30px 90px;
+  margin-top: 40px;
+  text-align: center;
 }
-.display{
-    width: 100%;
-    display: block;
-    padding: 14px;
-    font-size: 18px;
-    background-color: #510a90e0;
-    color: white;
-    margin-bottom: 32px;
-    border: none;
-    border-radius: 3px;
-    text-align: right;
+.display {
+  width: 100%;
+  display: block;
+  padding: 14px;
+  font-size: 18px;
+  background-color: #510a90e0;
+  color: white;
+  margin-bottom: 32px;
+  border: none;
+  border-radius: 3px;
+  text-align: right;
 }
-.btns{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    column-gap: 10px;
-    row-gap: 10px;
+.btns {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 10px;
+  row-gap: 10px;
 }
-input[type="button"]{
-    background-color: #510a90e0;
-    color: white;
-    padding: 6px;
-    font-size: 18px;
-    border: none;
-    border-radius: 4px;
+input[type="button"] {
+  background-color: #510a90e0;
+  color: white;
+  padding: 6px;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
 }
-input[type="button"]:hover{
-    cursor: pointer;
-    background-color: #360265e0;
+input[type="button"]:hover {
+  cursor: pointer;
+  background-color: #360265e0;
 }
-.delete-btn{
-    background-color: red !important;
+.delete-btn {
+  background-color: red !important;
 }
-.c-btn{
-    background-color: red !important;
+.c-btn {
+  background-color: red !important;
 }
-.delete-btn:hover{
-    background-color: #a30505  !important;
+.delete-btn:hover {
+  background-color: #a30505 !important;
 }
-.c-btn:hover{
-    background-color: #a30505  !important;
-}
-
-
-/* ****** g number ******* */
-.card{
-    width: 600px;
-    margin: 100px auto;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+.c-btn:hover {
+  background-color: #a30505 !important;
 }
 
+/* ****** Guess number ******* */
+.card {
+  width: 600px;
+  margin: 100px auto;
+  box-shadow: rgba(204, 56, 56, 0.4) 0px 30px 90px;
+}
 
-input[type="submit"]{
-	color: white;
-	background: #c11010;
-	border: none;
-	border-radius: 4px;
-	padding: 5px 15px;
+input[type="submit"] {
+  color: white;
+  background: #c11010;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 15px;
 }
